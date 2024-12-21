@@ -80,3 +80,47 @@
 // 123 = string
 // Null = string
 // 0 = string
+
+// ************************************* Operations ****************************
+
+// let value = 3
+
+// let negValue = -value
+
+// console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/3)
+// console.log(2%3)
+
+// let str1 = "hello"
+
+// let str2 = " Nikhil"
+
+// let str3 = str1 +str2
+
+// console.log(str3)
+
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+1+2) // if string first then join each number
+// console.log(1+1+"2") // if string is last then add first then join it.
+// console.log((3+4)*5%3)
+
+// console.log(+true)
+// console.log(+"")
+
+// let num1,num2,num3
+
+// num1 = num2 = num3 = 2+2
+
+// let gameCounter = 100
+// gameCounter++
+// console.log(gameCounter)
+// let gameCounter1= 100
+// ++gameCounter1
+// console.log(gameCounter1)
+
