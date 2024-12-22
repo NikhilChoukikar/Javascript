@@ -42,3 +42,28 @@
 // Array - Object
 // Objects- Object
 // Functions- Object Function
+
+// ****************************************************
+
+// Stack(Primitive) Heap(Non-Primitive)
+
+// let myYoutubename = "nikhilcdotcom"
+
+// let anothername = myYoutubename
+// anothername = "chaiaurcode"
+
+// console.log(anothername)
+// console.log(myYoutubename)
+
+// let userOne = {
+//     email : "nikhil@google.com",
+//     upi : "user@ybl"
+// }
+
+// let userTwo = userOne
+
+// userTwo.email = "user@google.com"
+
+// console.log(userOne.email)
+// console.log(userTwo.email);
+
