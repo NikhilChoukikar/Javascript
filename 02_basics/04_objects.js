@@ -1,57 +1,84 @@
 // const tinderUser = new Object()
 
-const tinderUser = {}
 
-tinderUser.id = 1,
-tinderUser.name = "Nicky"
-tinderUser.isLoggedIn = true
+// const tinderUser = {}
 
-console.log(tinderUser)
+// tinderUser.id = 1,
+// tinderUser.name = "Nicky"
+// tinderUser.isLoggedIn = true
 
-const regularUser = {
-    email: "nik@gmail.com",
-    fullname: 
-    {
-        userFullName:
-        {
-          Firstname: "Nikhil",
-          Lastname: "Choukikar"
-        }
-    }
-}
+// console.log(tinderUser)
 
-console.log(regularUser.fullname.userFullName.Firstname)  // You can use only fullname
+// const regularUser = {
+//     email: "nik@gmail.com",
+//     fullname: 
+//     {
+//         userFullName:
+//         {
+//           Firstname: "Nikhil",
+//           Lastname: "Choukikar"
+//         }
+//     }
+// }
 
-const obj1 = {1:"a", 2:"b"}
-const obj2 = {3:"a", 4:"b"}
-const obj3 = {5:"a", 6:"b"}
+// console.log(regularUser.fullname.userFullName.Firstname)  // You can use only fullname
+
+// const obj1 = {1:"a", 2:"b"}
+// const obj2 = {3:"a", 4:"b"}
+// const obj3 = {5:"a", 6:"b"}
 
 // const obj4 = {obj1,obj2}
 // const obj4 = Object.assign({}, obj1,obj2,obj3)
 
-const obj4 = {...obj1,...obj2}
-console.log(obj4)
+// const obj4 = {...obj1,...obj2}
+// console.log(obj4)
 
-const users = [
-    {
-        id: 1,
-        email: "nik@gmail.com"
-    },
-    {
-        id: 1,
-        email: "n@gmail.com"
-    },
-    {
-        id: 1,
-        email: "i@gmail.com"
-    }
+// const users = [
+//     {
+//         id: 1,
+//         email: "nik@gmail.com"
+//     },
+//     {
+//         id: 1,
+//         email: "n@gmail.com"
+//     },
+//     {
+//         id: 1,
+//         email: "i@gmail.com"
+//     }
+// ]
+
+// users[1].email
+// console.log(tinderUser)
+
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+// const course = 
+// {
+//     coursename: "Js in hindi",
+//     price: "free",
+//     courseInstructor: "nikhil"
+// }
+
+// course.courseInstructor
+
+// const{courseInstructor:Instructor} = course
+
+// console.log(courseInstructor)
+// console.log(instructor)
+
+// {
+//     "name":"hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
 ]
-
-users[1].email
-console.log(tinderUser)
-
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
-
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
